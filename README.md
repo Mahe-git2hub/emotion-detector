@@ -26,6 +26,7 @@ levels and adapt communication strategies in real time.
 - A webcam or access to a video file/stream if you want to analyse live input.
 - System packages required by OpenCV (Linux systems may need
   `libsm6`, `libxext6`, and `libxrender1`).
+- MoviePy 1.x is installed via requirements; reinstall with `pip install -r requirements.txt` if a previous environment pulled MoviePy 2.x because FER still imports `moviepy.editor`.
 
 ### Installation
 
